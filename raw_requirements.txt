@@ -1,0 +1,6 @@
+jupyter
+transformers
+torch
+# model_path = "cardiffnlp/twitter-xlm-roberta-base-sentiment"
+sentencepiece
+protobuf
