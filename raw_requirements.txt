@@ -9,4 +9,6 @@ protobuf
 nltk
 ## 03
 pandas
-# wordcloud-fa
+wordcloud
+seaborn
+scikit-learn
