@@ -1,6 +1,12 @@
 jupyter
+## 01
 transformers
 torch
 # model_path = "cardiffnlp/twitter-xlm-roberta-base-sentiment"
 sentencepiece
 protobuf
+##  02
+nltk
+## 03
+pandas
+# wordcloud-fa
