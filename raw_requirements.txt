@@ -10,5 +10,5 @@ nltk
 ## 03
 pandas
 wordcloud
-seaborn
+plotly
 scikit-learn
