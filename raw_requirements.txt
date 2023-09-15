@@ -12,3 +12,4 @@ pandas
 wordcloud
 plotly
 scikit-learn
+scikit-plot
