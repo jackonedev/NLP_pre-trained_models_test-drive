@@ -13,3 +13,6 @@ wordcloud
 plotly
 scikit-learn
 scikit-plot
+## 05
+datasets
+umap-learn
