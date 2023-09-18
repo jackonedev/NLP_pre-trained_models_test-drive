@@ -1,7 +1,8 @@
 # Agregar AQUI archivos repoless
 
 
-
+.vs
+vnv_cuda/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
