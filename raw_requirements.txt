@@ -16,3 +16,5 @@ scikit-plot
 ## 05
 datasets
 umap-learn
+## 06
+accelerate
