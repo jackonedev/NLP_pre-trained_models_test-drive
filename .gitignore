@@ -4,7 +4,7 @@ distilbert-base-uncased-finetuned-emotion/*
 distilbert-base-multilingual-cased-finetuned-emotion/*
 !distilbert-base-multilingual-cased-finetuned-emotion/README.md
 req_cuda.txt
-
+*results.pkl
 .vs
 vnv_cuda/
 
