@@ -7,6 +7,7 @@ req_cuda.txt
 *results.pkl
 .vs
 vnv_cuda/
+metrics/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
