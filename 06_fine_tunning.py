@@ -57,7 +57,8 @@ results = {"dataset": emotions,
            "model": model,
            "ds_hidden": emotions_hidden,
            "predictions": preds_output}
-
+if not os.path.exists("./metrics"):
+    os.makedirs("./metrics")
 with open("./metrics/results.pkl", "wb") as f:
     pickle.dump(results, f)
 
