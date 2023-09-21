@@ -37,7 +37,7 @@ print("# 2 ##  Loading a pretrained model. Extracting the last hidden state")
 num_labels = emotions["train"].features["label"].num_classes
 model_hidden_state.main(num_labels, model_ckpt, tokenizer, device, emotions_encoded)
 model = model_hidden_state.model
-emotions_hidden = model_hidden_state.ds_hidden
+# emotions_hidden = model_hidden_state.ds_hidden
 
 
 # 3 ##  Training the model
@@ -55,7 +55,7 @@ results = {"dataset": emotions,
            "tokenizer": tokenizer,
            "ds_encoded": emotions_encoded,
            "model": model,
-           "ds_hidden": emotions_hidden,
+        #    "ds_hidden": emotions_hidden,
            "predictions": preds_output}
 if not os.path.exists("./metrics"):
     os.makedirs("./metrics")
